@@ -14,10 +14,24 @@
 
 class SingletonClock {
 private:
-    static SingletonClock * singleton;
+    //Constructors and destructor
     SingletonClock();
+    ~SingletonClock();
+    
+    //Private properties
+    static SingletonClock * singleton;
+    
+    //Private instance methods
+    std::string formatTimeMember(const std::string & timeMember);
+    
 public:
+    //Public destructor
+    static void Destroy();
+    
+    //Public singleton getter
     static SingletonClock * Instance();
+    
+    //Public instance methods
     std::string getTime();
 };
 

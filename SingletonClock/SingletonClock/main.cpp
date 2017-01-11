@@ -7,12 +7,15 @@
 //
 
 #include <iostream>
+#include <unistd.h>
 #include "SingletonClock.hpp"
 
 int main(int argc, const char * argv[]) {
     SingletonClock * first = SingletonClock::Instance();
     SingletonClock * second = SingletonClock::Instance();
     std::cout << "Address of first pointer: " << first << ". Hour given: " << first->getTime() << "." << std::endl;
-    std::cout << "Address of second pointer: " << first << ". Hour given: " << second->getTime() << "." << std::endl;
+    sleep(1);
+    std::cout << "Address of second pointer: " << second << ". Hour given: " << second->getTime() << "." << std::endl;
+    SingletonClock::Destroy();
     return 0;
 }

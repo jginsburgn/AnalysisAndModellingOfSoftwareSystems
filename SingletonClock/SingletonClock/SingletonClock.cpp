@@ -12,7 +12,21 @@ SingletonClock * SingletonClock::singleton = NULL;
 
 SingletonClock::SingletonClock() {
     if (!singleton) {
-        std::cout << "Creating clock" << std::endl;
+        std::cout << "Creating clock..." << std::endl;
+    }
+}
+
+SingletonClock::~SingletonClock() {
+    std::cout << "Destroying clock..." << std::endl;
+    singleton = NULL;
+}
+
+void SingletonClock::Destroy() {
+    if (!singleton) {
+        return;
+    }
+    else {
+        delete singleton;
     }
 }
 
@@ -25,8 +39,20 @@ SingletonClock * SingletonClock::Instance() {
 
 std::string SingletonClock::getTime() {
     std::string retVal = "";
-    time_t t = time(0);   // get time now
+    time_t t = time(0);
     struct tm * now = localtime( & t );
-    retVal += std::to_string(now->tm_hour) + ":" + std::to_string(now->tm_min);
+    std::string hour = formatTimeMember(std::to_string(now->tm_hour));
+    std::string minute = formatTimeMember(std::to_string(now->tm_min));
+    std::string second = formatTimeMember(std::to_string(now->tm_sec));
+    retVal += hour + ":" + minute + ":" + second;
     return retVal;
+}
+
+std::string SingletonClock::formatTimeMember(const std::string & timeMember) {
+    if (timeMember.length() != 2) {
+        return "0" +  timeMember;
+    }
+    else {
+        return timeMember;
+    }
 }
