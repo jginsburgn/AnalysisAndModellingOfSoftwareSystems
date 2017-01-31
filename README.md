@@ -1,4 +1,4 @@
-# Class' "Analysis and Modelling of Software Systems" Notes
+# Class's "Analysis and Modelling of Software Systems" Notes
 * [Professor's Cloud 9](https://ide.c9.io/ariellucien/poo2016)
 * [Professor's Git Repository](https://github.com/ariellucien/AyMSS17_1)
 * Own Cloud9 username: a01021617@itesm.mx or a01021617

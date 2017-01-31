@@ -8,12 +8,9 @@
 
 #include <iostream>
 
+
+
 int main(int argc, const char * argv[]) {
-    time_t t = time(0);   // get time now
-    struct tm * now = localtime( & t );
-    std::cout
-    << now->tm_hour << ':'
-    <<  now->tm_min
-    << std::endl;
+    Factory * f = Factory::getInstance();
     return 0;
 }

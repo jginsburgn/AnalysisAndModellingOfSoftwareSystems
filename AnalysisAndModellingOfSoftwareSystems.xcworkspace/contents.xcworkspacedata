@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
    <Group
       location = "container:Deliverables"
       name = "Deliverables">
@@ -8,9 +11,6 @@
          location = "group:001-Theater/001-Theater.xcodeproj">
       </FileRef>
    </Group>
-   <FileRef
-      location = "group:notes.md">
-   </FileRef>
    <FileRef
       location = "group:FactoryMethod/FactoryMethod.xcodeproj">
    </FileRef>
