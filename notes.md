@@ -44,6 +44,9 @@ They can be [classified](https://en.wikipedia.org/wiki/Software_design_pattern#C
   * Abstract Factory
 
 2. Structure
+
+  *  [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern)
+
 3. Behavior
 4. et cetera.
 

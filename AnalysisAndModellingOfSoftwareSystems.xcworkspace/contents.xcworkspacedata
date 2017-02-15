@@ -2,11 +2,17 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:README.md">
+      location = "group:/Users/MacBook/Repos/AnalysisAndModellingOfSoftwareSystems/notes.md">
+   </FileRef>
+   <FileRef
+      location = "group:Helper">
    </FileRef>
    <Group
       location = "container:Deliverables"
       name = "Deliverables">
+      <FileRef
+         location = "group:002-VideoGameHouse/002-VideoGameHouse.xcodeproj">
+      </FileRef>
       <FileRef
          location = "group:001-Theater/001-Theater.xcodeproj">
       </FileRef>

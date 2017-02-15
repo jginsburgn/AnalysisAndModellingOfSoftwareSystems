@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7825871E52FBA200505812 /* StrategyGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7825851E52FBA200505812 /* StrategyGame.cpp */; };
+		FA78258A1E52FBF900505812 /* DidacticGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7825881E52FBF900505812 /* DidacticGame.cpp */; };
+		FA78258D1E52FCC800505812 /* AdventureGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA78258B1E52FCC800505812 /* AdventureGame.cpp */; };
+		FAEDB14A1E4C0A6700043AA4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB1491E4C0A6700043AA4 /* main.cpp */; };
+		FAEDB1551E4C0BB300043AA4 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB1531E4C0BB300043AA4 /* Game.cpp */; };
+		FAEDB1581E4C4A8900043AA4 /* Warehouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB1561E4C4A8900043AA4 /* Warehouse.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAEDB1441E4C0A6700043AA4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA7825851E52FBA200505812 /* StrategyGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrategyGame.cpp; sourceTree = "<group>"; };
+		FA7825861E52FBA200505812 /* StrategyGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StrategyGame.hpp; sourceTree = "<group>"; };
+		FA7825881E52FBF900505812 /* DidacticGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DidacticGame.cpp; sourceTree = "<group>"; };
+		FA7825891E52FBF900505812 /* DidacticGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DidacticGame.hpp; sourceTree = "<group>"; };
+		FA78258B1E52FCC800505812 /* AdventureGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AdventureGame.cpp; sourceTree = "<group>"; };
+		FA78258C1E52FCC800505812 /* AdventureGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AdventureGame.hpp; sourceTree = "<group>"; };
+		FA78258E1E54153300505812 /* notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = notes.md; sourceTree = "<group>"; };
+		FAEDB1461E4C0A6700043AA4 /* 002-VideoGameHouse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "002-VideoGameHouse"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEDB1491E4C0A6700043AA4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FAEDB1531E4C0BB300043AA4 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		FAEDB1541E4C0BB300043AA4 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		FAEDB1561E4C4A8900043AA4 /* Warehouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Warehouse.cpp; sourceTree = "<group>"; };
+		FAEDB1571E4C4A8900043AA4 /* Warehouse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Warehouse.hpp; sourceTree = "<group>"; };
+		FAEDB1591E4C625B00043AA4 /* PrimerParcial-17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PrimerParcial-17.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEDB1431E4C0A6700043AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7825911E54195300505812 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB1531E4C0BB300043AA4 /* Game.cpp */,
+				FAEDB1541E4C0BB300043AA4 /* Game.hpp */,
+				FA78258B1E52FCC800505812 /* AdventureGame.cpp */,
+				FA78258C1E52FCC800505812 /* AdventureGame.hpp */,
+				FA7825881E52FBF900505812 /* DidacticGame.cpp */,
+				FA7825891E52FBF900505812 /* DidacticGame.hpp */,
+				FA7825851E52FBA200505812 /* StrategyGame.cpp */,
+				FA7825861E52FBA200505812 /* StrategyGame.hpp */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		FAEDB13D1E4C0A6700043AA4 = {
+			isa = PBXGroup;
+			children = (
+				FAEDB1481E4C0A6700043AA4 /* 002-VideoGameHouse */,
+				FAEDB1471E4C0A6700043AA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEDB1471E4C0A6700043AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB1461E4C0A6700043AA4 /* 002-VideoGameHouse */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEDB1481E4C0A6700043AA4 /* 002-VideoGameHouse */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB1591E4C625B00043AA4 /* PrimerParcial-17.pdf */,
+				FAEDB1491E4C0A6700043AA4 /* main.cpp */,
+				FA7825911E54195300505812 /* Game */,
+				FAEDB1561E4C4A8900043AA4 /* Warehouse.cpp */,
+				FAEDB1571E4C4A8900043AA4 /* Warehouse.hpp */,
+				FA78258E1E54153300505812 /* notes.md */,
+			);
+			path = "002-VideoGameHouse";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEDB1451E4C0A6700043AA4 /* 002-VideoGameHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEDB14D1E4C0A6700043AA4 /* Build configuration list for PBXNativeTarget "002-VideoGameHouse" */;
+			buildPhases = (
+				FAEDB1421E4C0A6700043AA4 /* Sources */,
+				FAEDB1431E4C0A6700043AA4 /* Frameworks */,
+				FAEDB1441E4C0A6700043AA4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "002-VideoGameHouse";
+			productName = "002-VideoGameHouse";
+			productReference = FAEDB1461E4C0A6700043AA4 /* 002-VideoGameHouse */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEDB13E1E4C0A6700043AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jonathan Ginsburg";
+				TargetAttributes = {
+					FAEDB1451E4C0A6700043AA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAEDB1411E4C0A6700043AA4 /* Build configuration list for PBXProject "002-VideoGameHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAEDB13D1E4C0A6700043AA4;
+			productRefGroup = FAEDB1471E4C0A6700043AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEDB1451E4C0A6700043AA4 /* 002-VideoGameHouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEDB1421E4C0A6700043AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDB1551E4C0BB300043AA4 /* Game.cpp in Sources */,
+				FAEDB14A1E4C0A6700043AA4 /* main.cpp in Sources */,
+				FA7825871E52FBA200505812 /* StrategyGame.cpp in Sources */,
+				FAEDB1581E4C4A8900043AA4 /* Warehouse.cpp in Sources */,
+				FA78258D1E52FCC800505812 /* AdventureGame.cpp in Sources */,
+				FA78258A1E52FBF900505812 /* DidacticGame.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAEDB14B1E4C0A6700043AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAEDB14C1E4C0A6700043AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAEDB14E1E4C0A6700043AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAEDB14F1E4C0A6700043AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEDB1411E4C0A6700043AA4 /* Build configuration list for PBXProject "002-VideoGameHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDB14B1E4C0A6700043AA4 /* Debug */,
+				FAEDB14C1E4C0A6700043AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEDB14D1E4C0A6700043AA4 /* Build configuration list for PBXNativeTarget "002-VideoGameHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDB14E1E4C0A6700043AA4 /* Debug */,
+				FAEDB14F1E4C0A6700043AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEDB13E1E4C0A6700043AA4 /* Project object */;
+}
