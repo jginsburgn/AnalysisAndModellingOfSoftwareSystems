@@ -11,6 +11,9 @@
       location = "container:Deliverables"
       name = "Deliverables">
       <FileRef
+         location = "group:003-ObserverPattern/003-ObserverPattern.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:002-VideoGameHouse/002-VideoGameHouse.xcodeproj">
       </FileRef>
       <FileRef

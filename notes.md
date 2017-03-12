@@ -113,7 +113,50 @@ Base base = 5;
 * [`delete`](http://en.cppreference.com/w/cpp/language/function#Deleted_functions) in the context of deleted functions, not memory allocation.
 * [`default` (see = default ; syntax)](http://en.cppreference.com/w/cpp/language/function#Function_definition)
 
-### Glossary
+## 20170215
+
+### [Software Development Methodologies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies#Software_development_methodology) [See also](https://en.wikipedia.org/wiki/Software_development_process#Approaches)
+
+There are several categories of software development methodologies; some follow:
+
+#### Traditional
+
+Some specific methodologies in this category include:
+
+* Protoype
+* Iterative
+
+The sequence of steps are usually:
+
+* Analysis
+* Design
+* Coding
+* Implementation
+* Testing
+
+#### Object Oriented
+
+* RUP
+
+#### Agile
+
+Some specific methodologies include:
+
+* Pair Programming
+* SCRUM
+
+Some characteristics include:
+
+* Short periods
+
+### UML
+* A **Case Use Diagram** only describes components that interact with the user. For example, DB should never appear in a use case diagram, as it never interacts directly with the user. Therefore only human-machine interactions are documented here.
+
+* ```<<includes>>``` Denotes an obligatory step in a Case Use Diagram.
+* ```<<extends>>``` Denotes an optional step in a Case Use Diagram.
+* ```<<stereotype>>``` Allows the extension of UML by adding a new constraint in relationships.
+
+## Glossary
 * Partial [virtual](http://en.cppreference.com/w/cpp/language/virtual) method: a method that has an implementation, which is generic, but is intended to be specifically implemented in child classes.
 * [Pure virtual method](http://en.cppreference.com/w/cpp/language/abstract_class): a method that does not have an implementation, but is intended to be implemented in child classes. Has de following syntax:
 
