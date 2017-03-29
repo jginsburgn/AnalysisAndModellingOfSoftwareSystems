@@ -12,6 +12,10 @@
 
 ### Design Patterns (programming good-practices)
 1. Singleton
+2. Factory Method
+3. Prototype
+4. Proxy
+5. Visitor
 
 ### Architectural (or Structural) Pattern ([Wikipedia](https://en.wikipedia.org/wiki/Architectural_pattern))
 1. MVC
@@ -48,6 +52,9 @@ They can be [classified](https://en.wikipedia.org/wiki/Software_design_pattern#C
   *  [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern)
 
 3. Behavior
+
+	* Visitor Pattern: This pattern is employed to extend extant classes (called `Elements`) by extracting the algorithm to add, and placing it into a `Visitor`. An `Element` implements an `accept` method which calls a `visit` method of the `Visitor`, with itself as the only argument. Therefore, method dispatching depends on both the `Visitor` and the `Element` used; this is called double dispatching. At a contrast, one would need to change the signature of the `accept` method, by changing its argument type, for every kind of visitor, not allowing the use of polymorphism. (See also [Wikipedia](https://en.wikipedia.org/wiki/Visitor_pattern#Details))
+
 4. et cetera.
 
 ##20170125
