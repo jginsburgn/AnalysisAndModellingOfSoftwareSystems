@@ -30,37 +30,37 @@
 ### [Software Design Patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
 They can be [classified](https://en.wikipedia.org/wiki/Software_design_pattern#Classification_and_list):
 
-1. Creation
+### Creation
 
   * Singleton: a single instance exists for the duration of the program. It is never deleted and created only once, when needed. Is this a memory leak?
   * Factory Method: encapsulate the creation of objects so that final user does not worry about intermediate operations in the creation.
   * [Prototype](https://en.wikipedia.org/wiki/Prototype_pattern): a base instance is taken as a model for creating new instances. Deep copy becomes important as well as the cloning of objects through the return value, that is not a pointer but the instance itself ([Example @ Wikipedia](https://en.wikipedia.org/wiki/Return_value_optimization#Summary)):
 
   
-   ```c++
-	PrototypedClass clone() {
-	   return PrototypedClass();
-	}
-	```
-	See also: `C++` idiom [CRTP](https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern) or Curiously Recurring Template Pattern.
+```c++
+PrototypedClass clone() {
+   return PrototypedClass();
+}
+```
+
+See also: `C++` idiom [CRTP](https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern) or Curiously Recurring Template Pattern.
 
   * Builder
   * Abstract Factory
 
-2. Structure
+### Structure
 
   *  [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern)
 
-3. Behavior
+### Behavior
 
-	* Visitor Pattern: This pattern is employed to extend extant classes (called `Elements`) by extracting the algorithm to add, and placing it into a `Visitor`. An `Element` implements an `accept` method which calls a `visit` method of the `Visitor`, with itself as the only argument. Therefore, method dispatching depends on both the `Visitor` and the `Element` used; this is called double dispatching. At a contrast, one would need to change the signature of the `accept` method, by changing its argument type, for every kind of visitor, not allowing the use of polymorphism. (See also [Wikipedia](https://en.wikipedia.org/wiki/Visitor_pattern#Details))
+  * Visitor Pattern: This pattern is employed to extend extant classes (called `Elements`) by extracting the algorithm to add, and placing it into a `Visitor`. An `Element` implements an `accept` method which calls a `visit` method of the `Visitor`, with itself as the only argument. Therefore, method dispatching depends on both the `Visitor` and the `Element` used; this is called double dispatching. At a contrast, one would need to change the signature of the `accept` method, by changing its argument type, for every kind of visitor, not allowing the use of polymorphism. (See also [Wikipedia](https://en.wikipedia.org/wiki/Visitor_pattern#Details))
 
-4. et cetera.
 
-##20170125
-###`C++` Constructors
+## 20170125
+### `C++` Constructors
 
-####There are three kinds of cunstructors:
+#### There are three kinds of cunstructors:
 
 * Default: all parameters have a default value.
 
@@ -86,18 +86,18 @@ Base (const Base &) {...}
 
 * [Move](http://en.cppreference.com/w/cpp/language/move_constructor) `C++11`: takes an Rvalue and makes it a reference so that 
 
-####Constructors exist in three fashions:
+#### Constructors exist in three fashions:
 
 * Explicit
 * Implicit
 * Delete
 
-####There are [types of values](http://en.cppreference.com/w/cpp/language/value_category) in the language, including:
+#### There are [types of values](http://en.cppreference.com/w/cpp/language/value_category) in the language, including:
 
 * Lvalue: left value.
 * Rvalue: right value.
 
-####`C++` Keywords:
+#### `C++` Keywords:
 * [`explicit`](http://en.cppreference.com/w/cpp/language/explicit): this is to disable the possibility of implicit calling of a parameter constructor by assignation, i.e.:
 
 ```C++
