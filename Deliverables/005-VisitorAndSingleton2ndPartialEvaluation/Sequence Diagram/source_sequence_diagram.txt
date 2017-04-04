@@ -1,0 +1,20 @@
+#Diagram made with https://www.websequencediagrams.com/
+#Copy and paste the following source code
+
+title Impresoras S.A.
+
+participant AbstractDocument as ad
+participant AbstractPrinter as ap
+participant VisitableArray as va
+participant Main as m
+
+m->va: Add Documents (Elements)
+m->va: Add Printers (Visitors)
+m->va: Execute visits (Dispatch visitors)
+loop visit all elements
+    va->ad: accept(Visitor)
+    ad->ap: visit(this)
+    note over ap
+        Operations conducted \nto visited document.
+    end
+end

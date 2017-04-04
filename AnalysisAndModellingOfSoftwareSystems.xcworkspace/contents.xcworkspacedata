@@ -11,6 +11,9 @@
       location = "container:Deliverables"
       name = "Deliverables">
       <FileRef
+         location = "group:005-VisitorAndSingleton2ndPartialEvaluation/005-VisitorAndSingleton2ndPartialEvaluation.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:004-VisitorAndSingleton/004-VisitorAndSingleton.xcodeproj">
       </FileRef>
       <FileRef
