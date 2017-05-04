@@ -11,6 +11,12 @@
       location = "container:Deliverables"
       name = "Deliverables">
       <FileRef
+         location = "group:008-FinalTest/008-FinalTest.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:007-AutomaticReferenceCounting/007-AutomaticReferenceCounting.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:006-ChainOfResponsibilityDNS/006-ChainOfResponsibilityDNS.xcodeproj">
       </FileRef>
       <FileRef
